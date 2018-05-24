@@ -1,0 +1,227 @@
+* {box-sizing: border-box;}
+
+body,form,button,input{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 56px;
+    width: 100%;
+/*    background: lightgrey;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    border-bottom: 1px solid #dee2e6;
+    background: #fff;
+}
+.headerL{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+.redDot{
+    width: 3px;
+    margin-bottom: 1px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo span{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+}
+.search form{
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin-left: 94px;
+    display: flex;
+    align-items: center;
+}
+.headerInput{
+    height: 26px;
+    width: 547px;
+    padding-left: 5px;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+::placeholder{ 
+    color: #adb5bd;
+    font-weight: 350;
+    font-size: 13px;
+}
+.headerButton{
+    width: 49px;
+    height: 26px;
+/*    margin-left: -4px;*/
+    border-radius: 0 3px 3px 0;
+    border-bottom: 1px solid #CCCCCC;
+    cursor: pointer;
+    background: #f1f3f5;
+}
+.searchImg{
+    width: 14px;
+    margin-top: 3px;
+}
+.headerR{
+    margin-right: 30px;
+    float: right;
+    font-weight: 400;
+    color: #e03131;
+    font-size: 17px;
+}
+.headerR span{
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.download{
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 265px;
+    color: black;
+    margin-top: 240px;
+    border: 1px solid black;
+    background: #fff;
+    cursor: pointer;
+    z-index: 2222;
+    letter-spacing: 0.5px;
+}
+.level1{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+.level1 img{
+    height: 95vh;
+    margin-left: 100px;
+}
+.level1T{
+    font-weight: 100;
+    margin-top: 300px;
+    margin-left: -250px;
+}
+.level2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level2 img{
+    height: 120vh;
+    margin-top: 100px;
+    position: relative;
+}
+.level2T{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -150px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+.level2Text{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: -100px;
+    white-space:nowrap; 
+    line-height: 29px;
+    text-align: left;
+}
+.graphCon{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.graphCon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+    text-align: center;
+}
+.graph{
+    background: url('../img/graph.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.colorcircleCon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.colorcircle{
+    background: url('../img/colorcircle.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-bottom: -30px;
+}
+.colorText{
+    margin-top: 100px;
+    white-space: nowrap;
+    margin-bottom: -30px;
+}
+.level3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 100px;
+}
+.level3 img{
+    height: 100vh;
+}
+.level3Text{
+    
+}
+.level4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.level4 img{
+    width: 65%;
+    height: auto;
+}
+.l4text{
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 30px;
+}
